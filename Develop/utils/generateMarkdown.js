@@ -11,54 +11,70 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-const generateMarkdown = ({username, contact, title, description, license, installation, tests, usage, contributing}) => {
-    return `# ${title}
-  ${license}
+const generateMarkdown = ({
+  username,
+  contact,
+  title,
+  description,
+  license,
+  installation,
+  tests,
+  usage,
+  contributing,
+}) => {
+  return `# ${title}
+${license}
 
-  ## Description
+## Description
 
-  ${description}
+${description}
   
-  ## Table of Contents
+## Table of Contents
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Installation
+## Installation
 
-  To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:
 
-  ${installation}
+\`\`\`
+${installation}
+\`\`\`
+
+## Usage
+
+${usage}
   
-  ## Usage
+## Contributing
 
-  ${usage}
-  
-  ## Contributing
-
-  ${contributing}
+${contributing}
   
 
-  ## License
+## License
 
-  This project is licensed under the ${license} license.
+This project is licensed under the ${license} license.
   
-  ## Tests
+## Tests
 
-  To run tests, run the following command:
+To run tests, run the following command:
 
-  ${tests}
+\`\`\`
 
-  ## Questions
+${tests}
+\`\`\`
 
-  If you have any questions about the repo open an issue or contact me directly at ${contact}. You can find more of my work at [${username}](https://github.com/${username}/).
-  `;
-}
+
+## Questions
+
+If you have any questions about the repo open an issue or contact me directly at ${contact}. You can find more of my work at [${username}](https://github.com/${username}/).
+`;
+};
 
 module.exports = {
-  generateMarkdown
-}
+  generateMarkdown,
+};
