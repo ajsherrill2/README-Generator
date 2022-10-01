@@ -64,7 +64,6 @@ This project is licensed under the ${license} license.
 To run tests, run the following command:
 
 \`\`\`
-
 ${tests}
 \`\`\`
 
