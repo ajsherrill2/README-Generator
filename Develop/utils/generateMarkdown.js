@@ -5,7 +5,11 @@ function renderLicenseBadge(license) {}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return 
+  if (license === 'none') {
+    return ``;
+  } else {
+    return `- [License](#license)`;
+  }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -16,8 +20,8 @@ function renderLicenseSection(license) {
   } else {
     return `## License
     
-    This project is licensed under the ${license} license.
-    `;
+This project is licensed under the ${license} license.
+`;
   }
 }
 
@@ -44,7 +48,7 @@ ${description}
   
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+${renderLicenseLink(license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
