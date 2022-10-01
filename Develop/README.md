@@ -1,9 +1,9 @@
-# Adams ReadMe
-MIT
+# t
+none
 
 ## Description
 
-Here is a short description of my prject.
+t
   
 ## Table of Contents
   
@@ -24,27 +24,23 @@ npm i
 
 ## Usage
 
-Here is a short explaination on how to use this repo.
+t
   
 ## Contributing
 
-Heres what the user needs to know about contributing.
+t
   
 
-## License
-
-This project is licensed under the MIT license.
   
 ## Tests
 
 To run tests, run the following command:
 
 ```
-
-npm run test
+npm test
 ```
 
 
 ## Questions
 
-If you have any questions about the repo open an issue or contact me directly at adamsherrill2@gmail.com. You can find more of my work at [ajsherrill18](https://github.com/ajsherrill18/).
+If you have any questions about the repo open an issue or contact me directly at t. You can find more of my work at [t](https://github.com/t/).

@@ -41,7 +41,7 @@ const questions = [
     type: "input",
     name: "tests",
     message: "What command should be run to run tests?",
-    default: "npm run test"
+    default: "npm test",
   },
   {
     type: "input",
@@ -60,7 +60,7 @@ const writeToFile = async () => {
   try {
     const answers = await inquirer.prompt(questions);
     await writeFile("README.md", generateMarkdown(answers));
-    console.log("Readme created");
+    console.log("Generating README...");
   } catch (e) {
     console.log(e);
   }
