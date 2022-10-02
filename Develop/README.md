@@ -1,5 +1,5 @@
 # t
-
+![GitHub license](https://img.shields.io/badge/License-APACHE-blue.svg)
 
 ## Description
 
@@ -9,7 +9,7 @@ t
   
 - [Installation](#installation)
 - [Usage](#usage)
-
+- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -30,6 +30,9 @@ t
 
 t
   
+## License
+    
+This project is licensed under the APACHE license.
 
   
 ## Tests
