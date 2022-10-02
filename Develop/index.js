@@ -59,7 +59,7 @@ const questions = [
 const writeToFile = async () => {
   try {
     const answers = await inquirer.prompt(questions);
-    await writeFile("README.md", generateMarkdown(answers));
+    await writeFile("./generated/README.md", generateMarkdown(answers));
     console.log("Generating README...");
   } catch (e) {
     console.log(e);

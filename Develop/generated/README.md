@@ -1,15 +1,15 @@
-# t
-![GitHub license](https://img.shields.io/badge/License-APACHE-blue.svg)
+# Test
+
 
 ## Description
 
-t
+Test
   
 ## Table of Contents
   
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -24,15 +24,12 @@ npm i
 
 ## Usage
 
-t
+Test
   
 ## Contributing
 
-t
+Test
   
-## License
-    
-This project is licensed under the APACHE license.
 
   
 ## Tests
@@ -46,4 +43,4 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo open an issue or contact me directly at t. You can find more of my work at [t](https://github.com/t/).
+If you have any questions about the repo open an issue or contact me directly at test@test.com. You can find more of my work at [Test](https://github.com/Test/).

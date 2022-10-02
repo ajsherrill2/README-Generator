@@ -1,19 +1,80 @@
-# README-Generator
+# README Generator
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+## Description
+
+In this Project I was tasked with creating a README markup generator using node.js and Javascript. This generator takes in a users inputs in the terminal command line and pastes given inputs to a README template in order to simplify and speed up the markup process.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#Badges)
+- [Features](#Features)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installation
+
+To Install:
+
+Install node.js lts
+
+Clone the repository from GitHub (https://github.com/ajsherrill2/README-Generator.git).
+
+Run this command line in your terminal to install necessary dependencies:
+
 ```
+npm install
+```
+
+Run this command line in your terminal to install inquirer:
+
+```
+npm i inquirer@8.2.4
+```
+
+## Usage
+
+Direct your terminal to the /Develop directory and run this command line to initiate application:
+
+```
+node index.js
+```
+
+Watch this short video demonstration [here](https://drive.google.com/file/d/181sCzp20CbcPAWiDiJxsuCU23b6nWaDz/view)
+
+## Credits
+
+Collaborators:
+
+Gloriana - https://github.com/ggggglo
+
+Shelby Hernandez - https://github.com/Shernandez927
+
+Shawn Tschoepe - https://github.com/shawn220a
+
+## License
+
+This application is covered under the MIT license.
+
+## Badges
+
+![license](https://img.shields.io/badge/license-MIT-yellow.svg)
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+![badmath](https://img.shields.io/github/repo-size/ajsherrill2/README-Generator)
+
+## Features
+
+One feature you will find in this application is when the user selects 'none' for the license prompt, the license section will be removed from the readme all together.
+
+## Tests
+
+You can expect teset files to be featured in future developement.
+
+## Questions
+
+If you have any questions about the repo open an issue or contact me directly at adamsherrill2@gmail.com. You can find more of my work at [ajsherrill2](https://github.com/ajsherrill2/).
